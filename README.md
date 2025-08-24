@@ -14,5 +14,5 @@ RAGFLOW_IMAGE=0xgkd/ragflow-arm64:v0.20.3
 docker compose -f docker/docker-compose.yml up -d
 
 # Result
-![image](https://github.com/0xgkd/ragflow-arm64/blob/main/success.jpg)
-![image](https://github.com/0xgkd/ragflow-arm64/blob/main/system.jpg)
+![image](https://github.com/0xgkd/ragflow-arm64/blob/main/success.png)
+![image](https://github.com/0xgkd/ragflow-arm64/blob/main/system.png)
