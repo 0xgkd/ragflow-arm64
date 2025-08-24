@@ -6,11 +6,14 @@ This repository aims to solve the arm64 compatibility issue of RAGFlow on Apple 
 ## Step 1: Pull RAGFlow Docker image
 docker pull 0xgkd/ragflow-arm64:v0.20.3
 
-## Step 2: Set the RAGFlow Docker image to custom image
-vim docker/.env
+## Step 2: Download zip file from release and unzip it
+ragflow-arm64.zip
+
+## Step 3: Set the RAGFlow Docker image to custom image
+vim docker/.env  
 RAGFLOW_IMAGE=0xgkd/ragflow-arm64:v0.20.3
 
-## Step 3: Run
+## Step 4: Run
 docker compose -f docker/docker-compose.yml up -d
 
 # Result
